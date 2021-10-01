@@ -1,14 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
+import 'package:get/get.dart';
 
-class SplashPage extends StatefulWidget {
+class SplashPage extends StatelessWidget {
   const SplashPage({Key? key}) : super(key: key);
 
-  @override
-  _SplashPageState createState() => _SplashPageState();
-}
-
-class _SplashPageState extends State<SplashPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
