@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "960642606416",
+    "project_id": "appfilmes-f8d99",
+    "storage_bucket": "appfilmes-f8d99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960642606416:android:d1e7e36235dd3a4608b855",
+        "android_client_info": {
+          "package_name": "br.com.rochajohnathan.app_filmes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960642606416-1j1qmcs87g0lubl8cnpsf0jk6tt21ntj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.rochajohnathan.app_filmes",
+            "certificate_hash": "711db372d62e9471c676ed4b78c64eb6f8a88fa5"
+          }
+        },
+        {
+          "client_id": "960642606416-nhitt9etmkacv4tnn99uv562vuflr47l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRcNi_u9_A6zfhXNfqVjqmaWmy6xNNcZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960642606416-nhitt9etmkacv4tnn99uv562vuflr47l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
