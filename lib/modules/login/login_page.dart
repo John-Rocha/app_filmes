@@ -1,8 +1,9 @@
+import 'package:app_filmes/modules/login/login_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:get/get.dart';
 
-class LoginPage extends StatelessWidget {
+class LoginPage extends GetView<LoginController> {
   const LoginPage({Key? key}) : super(key: key);
 
   @override
@@ -28,7 +29,7 @@ class LoginPage extends StatelessWidget {
                   Image.asset('assets/images/logo.png'),
                   SizedBox(height: 50),
                   SizedBox(
-                    width: Get.width * 0.9,
+                    width: Get.width * .9,
                     height: 42,
                     child: SignInButton(
                       Buttons.Google,
@@ -36,7 +37,7 @@ class LoginPage extends StatelessWidget {
                         borderRadius: BorderRadius.circular(100),
                       ),
                       text: 'Entrar com o Google',
-                      onPressed: () {},
+                      onPressed: () => controller.login(),
                     ),
                   ),
                 ],
