@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
 
-abstract class IModule {
+abstract class Module {
   abstract List<GetPage> routers;
 }

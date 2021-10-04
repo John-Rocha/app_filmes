@@ -12,4 +12,7 @@ class LoginServiceImpl implements LoginService {
 
   @override
   Future<UserCredential> login() => _loginRepository.login();
+
+  @override
+  void logout() => _loginRepository.logout();
 }
