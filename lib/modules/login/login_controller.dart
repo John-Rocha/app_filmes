@@ -22,7 +22,7 @@ class LoginController extends GetxController with LoaderMixin, MessagesMixin {
   Future<void> login() async {
     try {
       loading(true);
-      _loginService.login();
+      await _loginService.login();
       loading(false);
       message(
         MessageModel.info(
