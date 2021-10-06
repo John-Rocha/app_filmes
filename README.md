@@ -30,7 +30,7 @@
 - Search
   - Busca de filmes via pesquisa
   - Busca de filmes com base na lista de Categoria com os gêneros de filmes
-- Adicionar filmes aos favoritos 
+- Adicionar filmes aos favoritos
 - Firebase
   - Core
   - Auth | Sign-in
@@ -56,7 +56,7 @@
    https://flutter.dev/docs/get-started/install
 
    - Clone o repositório:
-   $ git clone [https://github.com/felipecastrosales/app_filmes app_filmes](https://github.com/John-Rocha/app_filmes.git)
+   $ git clone https://github.com/John-Rocha/app_filmes.git
 
    - Entre no diretório:
    $ cd app_filmes
