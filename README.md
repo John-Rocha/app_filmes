@@ -71,9 +71,12 @@
 ---
 
 <h2>Dificuldades</h2>
-- Tempo
-- Covid (tomei a vacina e tive reação)
-- Acabei escolhendo uma arquitetura muito desacoplada kkkk
+
+<ul>
+    <li>Tempo</li>
+    <li>Covid (tomei a vacina e tive reação)</li>
+    <li>Acabei escolhendo uma arquitetura muito desacoplada kkkk</li>
+</ul>
 
 ---
 <p>Créditos do readme para o https://github.com/John-Rocha
