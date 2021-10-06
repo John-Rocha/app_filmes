@@ -72,6 +72,8 @@
 
 <h2>Dificuldades</h2>
 - Tempo
+- Covid (tomei a vacina e tive reação)
 - Acabei escolhendo uma arquitetura muito desacoplada kkkk
-   ---
-   <p>Créditos do readme para o https://github.com/John-Rocha
+
+---
+<p>Créditos do readme para o https://github.com/John-Rocha
