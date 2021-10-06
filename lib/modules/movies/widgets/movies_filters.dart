@@ -9,7 +9,7 @@ class MoviesFilters extends GetView<MoviesController> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(top: 20),
+      padding: const EdgeInsets.only(top: 20.0),
       child: SingleChildScrollView(
         scrollDirection: Axis.horizontal,
         child: Obx(
@@ -19,8 +19,8 @@ class MoviesFilters extends GetView<MoviesController> {
                   .map(
                     (g) => FilterTag(
                       model: g,
-                      onPressed: () {},
-                      selected: false,
+                      onPressed: () => controller.filterMoviesByGenre(g),
+                      selected: controller.genreSelected.value?.id == g.id,
                     ),
                   )
                   .toList(),
