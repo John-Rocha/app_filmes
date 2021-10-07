@@ -13,7 +13,6 @@
    <p align="center">
       <img src=".github/print1.png" width="200" alt="Tela de Login">
       <img src=".github/print2.png" width="200" alt="Tela principal de Filmes">
-      <img src=".github/print3.png" width="200" alt="Favoritos">
       <img src=".github/print4.png" width="200" alt="Filmes mais assistidos">
    </p>
 
@@ -30,20 +29,16 @@
 - Search
   - Busca de filmes via pesquisa
   - Busca de filmes com base na lista de Categoria com os gêneros de filmes
-- Adicionar filmes aos favoritos
 - Firebase
   - Core
   - Auth | Sign-in
   - RemoteConfig
-  - Cloud Firestore
 - Telas: 
   - Login (onde possui o fluxo de login)
   - Splash (tela inicial do app para transição)
   - Home (tela principal do app e que serve de fluxo inicial para as demais telas descritas abaixo)
   - Movies (parte da view onde nós da a porta para a escolha da lista de filmes)
-  - MovieDetail (detalhe da página de Movie, onde temos mais componentes descritivos a respeito do filme)
-  - Favorites (onde fica a lista de filmes que foram adicionados aos favoritos)
-- E muuuitos outros aprendizados incríveis. 🔥
+- Teria a movie details e a favorite movies. 🔥
    </p>
 
 
