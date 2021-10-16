@@ -33,7 +33,7 @@ class MovieModel {
       id: map['id'] ?? 0,
       title: map['title'] ?? '',
       releaseDate: map['release_date'] ?? '',
-      posterPath: 'https://image.tmdb.org/t/p/w200/${map['poster_path']}',
+      posterPath: map['poster_path'],
       genre: List<int>.from(map['genre_ids'] ?? const []),
       favorite: map['favorite'] ?? false,
     );
@@ -43,4 +43,22 @@ class MovieModel {
 
   factory MovieModel.fromJson(String source) =>
       MovieModel.fromMap(json.decode(source));
+
+  MovieModel copyWith({
+    int? id,
+    String? title,
+    String? releaseDate,
+    String? posterPath,
+    List<int>? genre,
+    bool? favorite,
+  }) {
+    return MovieModel(
+      id: id ?? this.id,
+      title: title ?? this.title,
+      releaseDate: releaseDate ?? this.releaseDate,
+      posterPath: posterPath ?? this.posterPath,
+      genre: genre ?? this.genre,
+      favorite: favorite ?? this.favorite,
+    );
+  }
 }

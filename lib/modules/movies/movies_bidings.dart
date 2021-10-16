@@ -22,6 +22,7 @@ class MoviesBidings implements Bindings {
       () => MoviesController(
         genresService: Get.find(),
         moviesService: Get.find(),
+        authService: Get.find(),
       ),
       fenix: true,
     );
