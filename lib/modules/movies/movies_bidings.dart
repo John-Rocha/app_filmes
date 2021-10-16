@@ -10,10 +10,12 @@ class MoviesBidings implements Bindings {
   void dependencies() {
     Get.lazyPut<GenresRepository>(
       () => GenresRepositoryImpl(restClient: Get.find()),
+      fenix: true,
     );
 
     Get.lazyPut<GenresService>(
       () => GenresServiceImpl(genresRepository: Get.find()),
+      fenix: true,
     );
 
     Get.lazyPut(
@@ -21,6 +23,7 @@ class MoviesBidings implements Bindings {
         genresService: Get.find(),
         moviesService: Get.find(),
       ),
+      fenix: true,
     );
   }
 }
